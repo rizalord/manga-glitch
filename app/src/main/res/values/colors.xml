@@ -9,8 +9,14 @@
     <color name="black">#FF000000</color>
     <color name="blackpurple">#04001E</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F3EF04</color>
 
     <color name="headingText">#CDCDD2</color>
     <color name="typeBackground">#FF005F</color>
     <color name="type2Background">#119FCA</color>
+
+    <color name="genre">#292929</color>
+    <color name="moredetail">#04DAC6</color>
+
+    <color name="textsinopsis">#B0B0B0</color>
 </resources>

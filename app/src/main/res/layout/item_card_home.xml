@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginBottom="15dp"
+    android:layout_height="wrap_content">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:src="@color/gray"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="6.7dp"
+            android:id="@+id/img_view"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="5dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Boku no Hero Academia"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="18sp"
+                android:id="@+id/title_item"
+                android:textColor="@color/white"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/type_manga"
+                    android:text="Manga"
+                    android:background="@drawable/rounded_type_text"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="3dp"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/type_oneshot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="One-Shot"
+                    android:background="@drawable/rounded_type2_text"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="3dp"
+                    android:textSize="13sp"
+                    android:layout_marginBottom="12dp"
+                    android:visibility="gone"
+                    android:textAlignment="center" />
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:gravity="right"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_baseline_star_24"/>
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/score"
+                        android:textColor="@color/white"
+                        android:text="4.6"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:maxLines="5"
+                android:id="@+id/sinopsis_item"
+                android:text="Sinopsis lorem ipsum dolor sit amet"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+</LinearLayout>
